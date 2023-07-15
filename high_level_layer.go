@@ -9,8 +9,7 @@ package python3
 
 /*
 #cgo pkg-config: python3
-#cgo LDFLAGS: -
--L/Users/spring/opt/anaconda3/lib/python3.8/config-3.8-darwin -ldl -framework CoreFoundation
+#cgo LDFLAGS: -L/Users/spring/opt/anaconda3/lib/python3.8/config-3.8-darwin -ldl -framework CoreFoundation
 #include "Python.h"
 */
 import "C"
